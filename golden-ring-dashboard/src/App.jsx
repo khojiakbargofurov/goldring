@@ -6,6 +6,7 @@ const DashboardView = lazy(() => import('./components/DashboardView'));
 const ExplorerView = lazy(() => import('./components/ExplorerView'));
 const VirtualView = lazy(() => import('./components/VirtualView'));
 const AuthorsView = lazy(() => import('./components/AuthorsView'));
+const NotFoundView = lazy(() => import('./components/NotFoundView'));
 
 function App() {
   const [activeTab, setActiveTab] = useState('Dashboard');
@@ -45,6 +46,7 @@ function App() {
         {activeTab === 'Explorer' && <ExplorerView locations={locations} loading={loading} />}
         {activeTab === 'VirtualView' && <VirtualView locations={locations} loading={loading} />}
         {activeTab === 'Authors' && <AuthorsView />}
+        {activeTab === 'NotFound' && <NotFoundView />}
       </Suspense>
     </div>
   );

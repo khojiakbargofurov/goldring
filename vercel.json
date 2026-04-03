@@ -1,0 +1,6 @@
+{
+  "installCommand": "cd golden-ring-dashboard && npm install",
+  "buildCommand": "cd golden-ring-dashboard && npm run build",
+  "outputDirectory": "golden-ring-dashboard/dist",
+  "framework": "vite"
+}

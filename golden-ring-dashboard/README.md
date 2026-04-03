@@ -1,16 +1,24 @@
-# React + Vite
+# 🌟 Golden Ring of Tashkent - Web Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application forms the primary frontend client layer for the Golden Ring of Tashkent tourism ecosystem, meticulously crafted utilizing **Vite**, **React**, and **Leaflet.js**.
 
-Currently, two official plugins are available:
+## 🚀 Running Locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+# Install node dependencies
+npm install
 
-## React Compiler
+# Start the Vite development server
+npm run dev
+```
+*(The native dev server initializes on http://localhost:5173)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🏗️ Technical Features
+- **Interactive Cartography:** Dynamic GIS integration utilizing `react-leaflet` mapping points pulled seamlessly from the database.
+- **Glassmorphism UI:** A sleek, premium dark-themed interface built natively via pure `.css` styling logic. No bloatware CSS frameworks attached.
+- **SPA Mechanics:** Client-side React lazy-loading to bounce effortlessly between the *Dashboard*, *Explorer List*, *360° Virtual Views*, and *Platform Authors*.
+- **Vercel Build Target:** Embedded `vercel.json` ensures wildcard route fallbacks successfully hit `index.html` preventing deployment 404 errors.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Deploying to Vercel
+This specific sub-module (`golden-ring-dashboard`) functions as the **Framework Root Directory** for your Vercel configurations!
+Make sure the main monolithic SQLite DB is permanently extracted manually to `public/api/locations.json` before triggering a deployment hook. 

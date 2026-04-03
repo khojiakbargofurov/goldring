@@ -18,6 +18,8 @@ Golden Ring of Tashkent is a modern Single Page Application (SPA) designed to se
 
 ## 🛠️ Local Installation & Development
 
+> **📥 Note for ZIP Downloads:** If you downloaded this project as a `.zip` file from GitHub, extract the folder and open it in your code editor (e.g. VS Code). You **must** run `npm install` in both the database and dashboard folders separately, as dependencies are never included in the ZIP.
+
 ### 1. Database & Local API Initialization
 In a terminal window, navigate into the API directory, install dependencies, and start the local database API server.
 ```bash

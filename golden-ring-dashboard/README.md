@@ -4,6 +4,8 @@ This application forms the primary frontend client layer for the Golden Ring of 
 
 ## 🚀 Running Locally
 
+> **📥 Note for ZIP Downloads:** If you downloaded this project as a `.zip` file, extract it and open the folder in your terminal. You **must** execute `npm install` first, as the `node_modules` dependencies are not included in the downloaded archive.
+
 ```bash
 # Install node dependencies
 npm install

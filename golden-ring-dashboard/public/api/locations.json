@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Trek the Chimgan Trail",
+    "category_id": 1,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=400&auto=format&fit=crop",
+    "lat": 41.602,
+    "lng": 70.038,
+    "description": "Breathtaking mountain trails.",
+    "action_text": "Book",
+    "category_name": "Eco-Tourism Adventures"
+  },
+  {
+    "id": 2,
+    "name": "Horse Riding in Gulkam",
+    "category_id": 1,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?q=80&w=400&auto=format&fit=crop",
+    "lat": 41.61,
+    "lng": 70.05,
+    "description": "Explore canyons on horseback.",
+    "action_text": "Book",
+    "category_name": "Eco-Tourism Adventures"
+  },
+  {
+    "id": 3,
+    "name": "Amirsoy Mountain Resort",
+    "category_id": 1,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1542332213-31f87348057f?q=80&w=400&auto=format&fit=crop",
+    "lat": 41.565,
+    "lng": 69.974,
+    "description": "Modern ski resort.",
+    "action_text": "Book",
+    "category_name": "Eco-Tourism Adventures"
+  },
+  {
+    "id": 4,
+    "name": "Charvak Reservoir",
+    "category_id": 1,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1605809748897-400d36630a91?q=80&w=400&auto=format&fit=crop",
+    "lat": 41.63,
+    "lng": 70.045,
+    "description": "Beautiful blue waters.",
+    "action_text": "Explore",
+    "category_name": "Eco-Tourism Adventures"
+  },
+  {
+    "id": 5,
+    "name": "Kukeldash Madrasah",
+    "category_id": 2,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1548658866-993d6d061989?q=80&w=400&auto=format&fit=crop",
+    "lat": 41.323,
+    "lng": 69.234,
+    "description": "Historic Islamic school in Chorsu.",
+    "action_text": "View",
+    "category_name": "Heritage & Culture"
+  },
+  {
+    "id": 6,
+    "name": "Zangiota Complex",
+    "category_id": 2,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1563825838-8e6f1f4b7527?q=80&w=400&auto=format&fit=crop",
+    "lat": 41.196,
+    "lng": 69.155,
+    "description": "Pilgrimage shrine.",
+    "action_text": "View",
+    "category_name": "Heritage & Culture"
+  },
+  {
+    "id": 7,
+    "name": "Ceramic Workshop",
+    "category_id": 2,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1589255850937-299fde2397dd?q=80&w=400&auto=format&fit=crop",
+    "lat": 41.3,
+    "lng": 69.25,
+    "description": "Traditional pottery making.",
+    "action_text": "View",
+    "category_name": "Heritage & Culture"
+  },
+  {
+    "id": 8,
+    "name": "Parkent Vineyards",
+    "category_id": 3,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=400&auto=format&fit=crop",
+    "lat": 41.312,
+    "lng": 69.754,
+    "description": "Wine tasting in the hills.",
+    "action_text": "Taste",
+    "category_name": "Gastronomy"
+  },
+  {
+    "id": 9,
+    "name": "Chorsu Bazaar Food",
+    "category_id": 3,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=400&auto=format&fit=crop",
+    "lat": 41.327,
+    "lng": 69.235,
+    "description": "Plov and street food.",
+    "action_text": "Eat",
+    "category_name": "Gastronomy"
+  }
+]

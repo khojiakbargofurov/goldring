@@ -14,6 +14,9 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
+      setActiveTab('NotFound');
+    }
     // Determine active API URL based on Vercel Node Environment
     const apiUrl = import.meta.env.PROD 
       ? '/api/locations.json' 
